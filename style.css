@@ -324,3 +324,108 @@ transform:translateY(-100px);
 }
 
 }
+/* ===== STATS ===== */
+
+.stats{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+padding:80px 8%;
+
+}
+
+.stat-card{
+
+background:#161616;
+
+padding:35px;
+
+text-align:center;
+
+border-radius:18px;
+
+transition:.4s;
+
+border:1px solid #222;
+
+}
+
+.stat-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 15px 40px rgba(212,175,55,.35);
+
+}
+
+.stat-card h2{
+
+font-size:55px;
+
+color:#d4af37;
+
+margin-bottom:10px;
+
+}
+
+.stat-card p{
+
+color:#bbb;
+
+font-size:18px;
+
+}
+
+/* Social */
+
+.social{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+margin-top:30px;
+
+}
+
+.social a{
+
+width:60px;
+
+height:60px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+border-radius:50%;
+
+background:#191919;
+
+color:#d4af37;
+
+font-size:25px;
+
+text-decoration:none;
+
+transition:.4s;
+
+}
+
+.social a:hover{
+
+transform:scale(1.15) rotate(8deg);
+
+background:#d4af37;
+
+color:#111;
+
+}
